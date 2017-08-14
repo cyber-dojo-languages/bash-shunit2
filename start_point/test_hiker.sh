@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ./hiker.sh
+source ./hiker.sh
 
 function test_life_the_universe_and_everything()
 {
@@ -10,4 +10,4 @@ function test_life_the_universe_and_everything()
 }
 
 # load and run shUnit2
-. shunit2
+source shunit2
