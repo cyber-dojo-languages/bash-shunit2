@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/bash:4.4.19
+FROM  cyberdojofoundation/bash:latest
 LABEL maintainer=jon@jaggersoft.com
 
 ADD shunit2 /usr/bin/
