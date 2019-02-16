@@ -11,7 +11,5 @@
 
   "image_name": "cyberdojofoundation/bash_shunit2",
 
-  "filename_extension": ".sh",
-
-  "runner_choice": "stateless"
+  "filename_extension": ".sh"
 }
