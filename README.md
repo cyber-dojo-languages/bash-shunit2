@@ -1,4 +1,3 @@
-# Bash, shunit2
 
 [![CircleCI](https://circleci.com/gh/cyber-dojo-languages/bash-shunit2.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/bash-shunit2)
 
