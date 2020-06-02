@@ -1,11 +1,10 @@
 
-shunit2 help is online at
-https://github.com/zandev/shunit2/blob/master/doc/shunit2.txt
-http://shunit2.googlecode.com/svn/trunk/source/2.1/doc/shunit2.html#function-reference
+shunit2
+https://github.com/kward/shunit2
 
 Summary
 -------
-test functions must start with test. 
+test functions must start with the word 'test'.
 
 assertEquals [message] expected actual
 assertNotEquals [message] expected actual
@@ -25,4 +24,3 @@ tearDown
     called once after each test is run
 oneTimeTearDown
     called once after all tests are run
-
