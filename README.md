@@ -1,4 +1,4 @@
-[![Github Action (main)](https://github.com/cyber-dojo-languages/bash-shunit2/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/bash-shunit2/actions)
+[![Github Action (master)](https://github.com/cyber-dojo-languages/bash-shunit2/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/bash-shunit2/actions)
 
 ## display_name="Bash 5.2.37, shunit2 2.1.8"
 ## image_name="ghcr.io/cyber-dojo-languages/bash_shunit2"
