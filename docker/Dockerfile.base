@@ -4,5 +4,3 @@ LABEL maintainer=jon@jaggersoft.com
 RUN apk add curl \
   && curl https://raw.githubusercontent.com/kward/shunit2/refs/heads/master/shunit2 > /usr/bin/shunit2 \
   && apk del curl
-
-COPY red_amber_green.rb /usr/local/bin
