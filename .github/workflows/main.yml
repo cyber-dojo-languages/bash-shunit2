@@ -9,12 +9,8 @@ on:
 
 jobs:
 
-  # image_builder_ref pins the build script to the branch being piloted.
-  # Drop the input once that branch is merged, to take the master default.
   build-test-publish:
     uses: cyber-dojo-languages/reusable-actions-workflows/.github/workflows/build-image-per-arch.yml@main
-    with:
-      image_builder_ref: native-arch-split
     permissions:
       packages: write
       contents: read
