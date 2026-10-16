@@ -1,6 +1,5 @@
-FROM ghcr.io/cyber-dojo-languages/bash:869fdc6
+FROM ghcr.io/cyber-dojo-languages/bash:65313f0
 LABEL maintainer=jon@jaggersoft.com
 
-RUN apk add curl \
-  && curl https://raw.githubusercontent.com/kward/shunit2/refs/heads/master/shunit2 > /usr/bin/shunit2 \
-  && apk del curl
+COPY install.sh .
+RUN ./install.sh && rm ./install.sh
